@@ -8,8 +8,7 @@
 - As a driver, I want to alert the system when a package has been delivered.
 - As a vendor, I want to be notified when my package has been delivered.
 - And as developers, here is our updated story relevant to the above.
-
-- As a developer, I want to create network event driven system using Socket.io so that I can write code that responds to events originating from both servers and client applications
+- As a developer, I want to create network event driven system using Socket.io so that I can write code that responds to events originating from both servers and client applications.
 
 >TECH In order to switch from Node Events to Socket.io, the refactoring process will involve changes to each application to use the core features of `Socket.io`.
 
@@ -17,11 +16,13 @@
 
 ## PR for Lab 12
 
-- [PR for lab 12]()
+- [PR for lab 12](https://github.com/ArzuVon/Caps2/pull/1)
 
 ## Caps UML
 
-![Caps UML]()
+[UML]((https://user-images.githubusercontent.com/107226923/187827527-cbe54cb0-fb67-4ecb-9a53-a9c9e6d977d9.png))
+
+![UML](https://user-images.githubusercontent.com/107226923/187827527-cbe54cb0-fb67-4ecb-9a53-a9c9e6d977d9.png)
 
 ## Collaborators
 

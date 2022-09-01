@@ -1,0 +1,26 @@
+{
+  "name": "caps2",
+  "version": "1.0.0",
+  "description": "## Phase 1 Requirements",
+  "main": "caps.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "node ./src/caps.js",
+    "dev": "node src/caps.js",
+    "vendor": "node ./src/vendor.js",
+    "driver": "node ./src/driver.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArzuVon/Caps2.git"
+  },
+  "homepage": "https://github.com/ArzuVon/Caps2#readme",
+  "dependencies": {
+    "chance": "^1.1.8",
+    "socket.io": "^4.5.1",
+    "socket.io-client": "^4.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

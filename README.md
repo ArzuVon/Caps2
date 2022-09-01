@@ -21,7 +21,7 @@
 
 ## Caps UML
 
-![Caps UML](https://user-images.githubusercontent.com/107226923/187827527-cbe54cb0-fb67-4ecb-9a53-a9c9e6d977d9.png)
+![UML](https://user-images.githubusercontent.com/107226923/187827527-cbe54cb0-fb67-4ecb-9a53-a9c9e6d977d9.png)
 
 ## Collaborators
 

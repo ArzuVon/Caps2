@@ -1,4 +1,3 @@
-// const events = require('./events.js');
 const { io } = require('socket.io-client');
 const socket = io('ws://localhost:3000');
 const Chance = require('chance');

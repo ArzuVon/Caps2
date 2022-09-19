@@ -1,5 +1,6 @@
+'use strict';
 
-const EventEmitter = require("events");
-const event = new EventEmitter();
+const socketIo = require('socket.io');
+const io = socketIo(3500);
 
-module.exports = event;
+module.exports = io;

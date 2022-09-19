@@ -8,7 +8,7 @@
     "start": "node ./src/caps.js",
     "dev": "nodemon src/caps.js",
     "vendor": "node ./src/vendor.js",
-    "driver": "node ./src/driver.js",
+    "driver": "node ./src/driver.js"
 
   },
   "repository": {

@@ -24,9 +24,11 @@
 
 ![UML](https://user-images.githubusercontent.com/107226923/187827527-cbe54cb0-fb67-4ecb-9a53-a9c9e6d977d9.png)
 
+---
+
 ## CAPS Phase 3
 
- >Complete work on a multi-day build of our delivery tracking system, adding queued delivery.
+ >Complete work on a multi-day build of our delivery tracking system, adding queued delivery and we are building a set of features to help manage deliveries made by CAPS Drivers. This will simulate a delivery driver receiving a list of orders from a Queue and “scanning” package codes on delivery. Retailers will be able to see in their dashboard or log, a list of all packages delivered in real time.
 
 - [PR for lab 13](https://github.com/ArzuVon/Caps2/pull/1)
 

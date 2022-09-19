@@ -6,9 +6,10 @@
   "scripts": {
     "test": "jest --coverage",
     "start": "node ./src/caps.js",
-    "dev": "node src/caps.js",
+    "dev": "nodemon src/caps.js",
     "vendor": "node ./src/vendor.js",
     "driver": "node ./src/driver.js"
+
   },
   "repository": {
     "type": "git",

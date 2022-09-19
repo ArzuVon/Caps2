@@ -1,8 +1,15 @@
 const { io } = require('socket.io-client');
-const socket = io('ws://localhost:3000');
+const socket = io('ws://localhost:3000/driver');
 
 
 function pickUp() {
+
+  socket.on('orderForDriver', (payload) => {
+    setTimeout(() => {
+      console.log(`DRIVER picked up: ${payload.orderID}`);
+      socket.emit('pickUp', payload);
+    }, 1500);
+  });
 
   socket.on('orderForPickup', (payload) => {
     setTimeout(() => {
